@@ -1,0 +1,2 @@
+# Responsive-Website-Design-Assignment
+Design and develop a responsive website that is no less than 3 pages. Use knowledge of percentage based design, column grids and media queries to achieve the final developed website. Ensure that wireframes and mockups are provided for the design. HTML &amp; CSS needs to be clear and concise, as well as follow best practices. Site must be responsive across Mobile, Tablet and Desktop. 
