@@ -1,0 +1,772 @@
+
+/* general styles */
+
+*{
+	box-sizing:border-box;
+}
+
+.clearfix {
+	clear: both;
+}
+
+body {
+	margin: 0; 
+	padding: 0;
+}
+
+
+main{
+	margin: 0 auto;
+	width: 1920px;
+	;
+}
+
+.main-header{
+	width: 1920px;
+	
+}
+
+
+h3 {
+	font-size: 2em;
+	
+}
+
+h1 {
+	color: #660000;
+	font-family: 'Bungee Shade', cursive;
+
+}
+
+span.whitetext {
+	color: #FFFFFF;
+}
+
+/*--- Topbar Styles
+--------------------------*/
+
+nav{
+	background: rgb(255,142,50); /* Old browsers */
+	background: -moz-linear-gradient(left, rgb(255,142,50) 36%, rgb(249,27,97) 89%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgb(255,142,50) 36%,rgb(249,27,97) 89%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgb(255,142,50) 36%,rgb(249,27,97) 89%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8e32', endColorstr='#f91b61',GradientType=1 ); /* IE6-9 */
+	width: 100%;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+}
+
+nav img{
+	width: 280px; 
+	height: 120px;
+	float: left;
+	margin: 20px 30px 10px 100px;
+
+
+}
+
+nav: after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav ul{
+	float: right;
+	padding: 0;
+	margin: 0;
+	margin-right: 150px;
+	list-style: none;
+	position: relative;
+}
+
+nav ul li{
+	margin: 0;
+	float: left;
+}
+
+nav a{
+	font-family: 'Courgette', cursive;
+	font-size: 25px;
+	line-height: 180px;
+	text-decoration: none;
+	padding: 0 30px;
+	color: #FFFFFF;
+
+}
+nav a:hover {
+	color: #e30028;
+}
+	
+
+
+/*--- Header Styles and Icons
+--------------------------*/
+
+header li{
+	color: #33CC99;
+	padding: 10px;
+	font-size: 3em;
+	position: relative;
+	left: 850px;
+	top: 200px;
+
+
+}
+
+.social-media  i:hover {
+	color: #39383a;
+
+
+}
+
+.social-media li {
+	display: inline-block;
+
+}
+
+header{
+	background-image: url("../img/hero.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	padding-top: 10px;
+	width:1920px;
+	height: 1156px;
+	border-bottom: 10px solid #ff9933;
+	
+}
+
+/*--- What is Kettle Fried  Styles
+--------------------------*/
+
+.kettlefried {
+	height: 850px;
+	background: #f2cdb3;
+	padding: 70px 130px;
+	width: 1920px;
+
+
+}
+
+.kettlefried h3 {
+	text-align: center;
+	font-family: 'Courgette', cursive;
+	color: #660000;
+	font-size: 2em;
+	
+}
+ span.greytext {
+ 	color: #1c1c1c;
+ }
+
+ p.text {
+	font-size: 20px;
+	color: #4d4d4d;
+	font-family: 'Bitter', serif;
+	text-align: center;
+	line-height: 22px;
+	margin: 20px 100px 20px 100px; 
+	padding: 20px 130px 50px 130px;
+	
+}
+
+.kettlefried h5{
+	font-size: 22px;
+	font-family: 'Courgette', cursive;
+	color: #660000;
+	text-align: center;
+	margin: 0px 0px 10px 0px;
+
+
+}
+
+.kettlefried img{
+	padding: 5px 0px 0px 180px;
+
+}
+
+/*--- H1 Styles
+--------------------------*/
+.flav{
+	background: #79b8db;
+	height: 140px;
+	padding: 10px 0px 10px 0px;
+	width: 1920px; 
+	
+}
+
+.orang{
+	background: #ff9933;
+	height: 140px;
+	padding: 10px 0px 10px 0px; 
+}
+
+.orang h1{
+	text-align: center;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 2em;
+	margin: 45px 0px 0px 0px;
+}
+.red h1{
+	text-align: center;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 2em;
+	margin: 45px 0px 0px 0px;
+}
+
+.red{
+	background: #b24747;
+	height: 140px;
+	padding: 10px 0px 10px 0px; 
+}
+
+.flav h1{
+	text-align: center;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 2em;
+	margin: 45px 0px 0px 0px;
+}
+
+/*--- Deliscious Flavours Section Styles
+--------------------------*/
+.flavour{
+	height: 500px;
+	margin: 0px 0px 0px 0px;
+	background-color: #55d8a9,
+
+
+
+
+}
+.one-half {
+background: rgb(36,183,149); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgb(36,183,149) 0%, rgb(154,237,198) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, rgb(36,183,149) 0%,rgb(154,237,198) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgb(36,183,149) 0%,rgb(154,237,198) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24b795', endColorstr='#9aedc6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+float: left;
+height: 500px;
+width: 50%;
+
+
+}
+
+.artOne{
+	background-color: #55d8a9;
+	height: 500px;
+
+
+}
+
+
+.artOne img {
+	width: 229px;
+	height:70px;
+	margin: 60px 50px 30px 370px;
+	
+
+}
+
+.artOne p{
+	font-family: 'Bitter', serif;
+	font-size: 20px;
+	color: #4d4d4d;
+	line-height: 25px;
+	margin: 40px 10px 10px 200px;
+
+
+}
+
+.one-half img {
+	width: 500px; 
+	height: 350px;
+	margin: 80px 0px 0px 180px;
+
+}
+
+.artOne a {
+	background-color: #760e4e;
+	border-radius: 15px;
+	font-size: 16px;
+	font-family: 'Bitter', serif;
+	color: white;
+	text-decoration: none;
+	padding: 20px 30px 20px 30px;
+	position: relative;
+	line-height: 100px;
+	margin: 0px 0px 0px 360px;
+	
+
+}
+
+ .artOne a:hover{
+	color: #760e4e;
+}
+
+/*--- Wine Section Styles
+--------------------------*/
+.wine{
+	height: 500px;
+	margin: 0px 0px 0px 0px;
+	background-color: #f2cdb3;
+
+
+
+
+}
+.sec-half {
+background: -webkit-radial-gradient(center, ellipse cover, rgb(242,129,48) 0%,rgb(244,169,29) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgb(242,129,48) 0%,rgb(244,169,29) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f28130', endColorstr='#f4a91d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+height: 500px;
+width: 50%;
+float: left;
+
+
+}
+
+.artTwo{
+	background-color: #f2cdb3;
+	height: 500px;
+
+
+}
+
+
+.artTwo img {
+	width: 229px;
+	height:70px;
+	margin: 60px 50px 30px 370px;
+	
+
+}
+
+.artTwo p{
+	font-family: 'Bitter', serif;
+	font-size: 20px;
+	color: #4d4d4d;
+	line-height: 25px;
+	margin: 40px 10px 10px 200px;
+	text-align: center;
+
+
+}
+
+.sec-half img {
+	width: 500px; 
+	height: 350px;
+	margin: 80px 0px 0px 180px;
+
+}
+
+.artTwo a {
+	background-color: #971324;
+	border-radius: 15px;
+	font-size: 16px;
+	font-family: 'Bitter', serif;
+	color: white;
+	text-decoration: none;
+	padding: 20px 30px 20px 30px;
+	position: relative;
+	line-height: 100px;
+	margin: 0px 0px 0px 360px;
+}
+
+ .artTwo a:hover{
+	color: #971324;
+}
+
+
+/*--- Deliscious Flavours Section Styles
+--------------------------*/
+.flavour{
+	height: 500px;
+	margin: 0px 0px 0px 0px;
+	background-color: #55d8a9,
+
+
+
+
+}
+.one-half {
+background: rgb(36,183,149); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgb(36,183,149) 0%, rgb(154,237,198) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, rgb(36,183,149) 0%,rgb(154,237,198) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgb(36,183,149) 0%,rgb(154,237,198) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24b795', endColorstr='#9aedc6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+float: left;
+height: 500px;
+width: 50%;
+
+
+}
+
+.artOne{
+	background-color: #55d8a9;
+	height: 500px;
+
+
+}
+
+
+.artOne img {
+	width: 229px;
+	height:70px;
+	margin: 60px 50px 30px 370px;
+	
+
+}
+
+.artOne p{
+	font-family: 'Bitter', serif;
+	font-size: 20px;
+	color: #4d4d4d;
+	line-height: 25px;
+	margin: 40px 10px 10px 200px;
+	text-align: center;
+
+
+}
+
+.one-half img {
+	width: 500px; 
+	height: 350px;
+	margin: 80px 0px 0px 180px;
+
+}
+
+.artOne a {
+	background-color: #760e4e;
+	border-radius: 15px;
+	font-size: 16px;
+	font-family: 'Bitter', serif;
+	color: white;
+	text-decoration: none;
+	padding: 20px 30px 20px 30px;
+	position: relative;
+	line-height: 100px;
+	margin: 0px 0px 0px 360px;
+	
+
+}
+
+ .artOne a:hover{
+	color: #760e4e;
+}
+
+/*--- Snack Section Styles
+--------------------------*/
+.snacks{
+	height: 500px;
+	margin: 0px 0px 0px 0px;
+	background-color: #f2cdb3;
+
+
+
+
+}
+.third-half {
+background: -webkit-radial-gradient(center, ellipse cover, rgb(219,65,111) 23%,rgb(198,109,115) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgb(219,65,111) 23%,rgb(198,109,115) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db416f', endColorstr='#c66d73',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+height: 500px;
+width: 50%;
+float: left;
+
+
+}
+
+.artFour{
+	background-color: #f2cdb3l;
+	height: 500px;
+
+
+}
+
+
+.artFour img {
+	width: 229px;
+	height:70px;
+	margin: 60px 50px 30px 370px;
+	
+
+}
+
+.artFour p{
+	font-family: 'Bitter', serif;
+	font-size: 20px;
+	color: #4d4d4d;
+	line-height: 25px;
+	margin: 40px 10px 10px 200px;
+	text-align: center;
+
+
+}
+
+.third-half img {
+	width: 500px; 
+	height: 350px;
+	margin: 80px 0px 0px 180px;
+
+}
+
+.artFour a {
+	background-color: #613233;
+	border-radius: 15px;
+	font-size: 16px;
+	font-family: 'Bitter', serif;
+	color: white;
+	text-decoration: none;
+	padding: 20px 70px 20px 70px;
+	position: relative;
+	line-height: 100px;
+	margin: 0px 0px 0px 370px;
+}
+
+ .artFour a:hover{
+	color: #613233;
+}
+
+a{
+	padding: 20px;
+}
+
+
+
+/*--- Page Two Range 
+--------------------------*/
+
+.float div {
+	float: left;
+	
+}
+
+.rangesOne{
+	background-color: #b24747;
+	width: 600px;
+	height: 525px;
+}
+
+.rangesTne{
+	background-color: #64ede9;
+	width: 600px;
+	height: 525px;
+
+}
+
+.rangesThree{
+	background-color: #a1b2b1;
+	width: 600px;
+	height: 525px;
+}
+
+.wrap{
+	height: 1550px;
+}
+
+.rangF{
+	background-color: #ff9933;
+	width: 600px;
+	height: 525px;
+
+}
+
+.rangG{
+	background-color: #55d8a9;
+	width: 600px;
+	height: 525px;
+
+
+}
+
+.rangH{
+	background-color: #989898;
+	width: 600px;
+	height: 525px;
+
+
+}
+
+.rangI{
+	background-color: #b24747;
+	width: 600px;
+	height: 525px;
+
+}
+
+.rangJ{
+	background-color: #55e5a3;
+	width: 600px;
+	height: 525px;
+
+
+}
+
+.rangK{
+	background-color: #12967d;
+	width: 600px;
+	height: 525px;
+
+}
+
+
+/*--- Page Pairing Range 
+--------------------------*/
+
+.packs{
+	background-color: #f2cdb3;
+	height: 500px;
+
+}
+
+.pairings img{
+	width: 320px;
+	height: 400px;
+	margin: 50px 30px 0px 200px;
+}
+
+.pairings {
+	background-color: #f2cdb3;
+}
+
+.pairings a {
+	background-color: #971324;
+	border-radius: 10px;
+	font-size: 16px;
+	font-family: 'Bitter', serif;
+	color: white;
+	text-decoration: none;
+	padding: 20px 70px 20px 70px;
+	position: relative;
+	line-height: 100px;
+	margin: 30px 0px 0px 300px;
+}
+
+
+.pairings a:hover{
+	color: #971324;
+}
+
+.float img{
+	width: 250px;
+	height:350px;
+	margin: 70px 0px 0px 150px;
+}
+
+.float a {
+	background-color: white;
+	border-radius: 10px;
+	font-size: 16px;
+	font-family: 'Bitter', serif;
+	color: black;
+	text-decoration: none;
+	padding: 10px 30px 10px 30px;
+	position: relative;
+	line-height: 100px;
+	margin: 0px 0px 0px 220px;
+
+}
+
+.float a:hover{
+	color: white;
+}
+
+/*--- Footer Styles
+--------------------------*/
+
+.subscribe{
+	background-color: #afd4d8;
+	width: 1920px;
+
+}
+
+.main-header h4{
+	font-family: 'Bitter', serif;
+	color: white;
+	float: right;
+	margin: 60px 0px 0px 0px;
+
+}
+
+#last{
+	height: 100px;
+}
+
+.contact{
+	background-color: #f2cdb3;
+	height: 400px;
+	width: 1920px;
+	padding: 10px;
+}
+
+form {
+	width:300px;
+	margin: 0px 0px 60px 600px;
+	padding: 50PX;
+
+}
+
+ form input{
+	width: 100%;
+
+}
+
+footer article input {
+	
+	display: block;
+	text-align: left;
+	border-radius: 5px;
+	border-color: #79b8db;
+	border-style: solid;
+	border-width: 3px;
+	margin-bottom: 10px;
+	padding: 15px;
+	font-size: 16px;
+	font-family: 'Bitter', serif;
+	color: black;
+}
+
+input[type="submit"] {
+	width: 50%;
+	background-color: #79b8db;
+	font-family: 'Bitter', serif;
+	color: white;
+	font-size: 16px;
+	line-height: 16px;
+	margin: 0px 0px 0px 50px;
+	text-align: center;
+
+	}
+
+input[type="submit"]:hover{
+	background-color: white;
+	border-color: transparent;
+}
+
+footer article textarea{
+	width: 100%;
+	display: block;
+	text-align: center;
+	height: 100px;
+	margin: 15px 0;
+	padding: 10px;
+	border-radius: 5px;
+	border-color: #79b8db;
+	border-style: solid;
+	border-width: 3px;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 16px;
+}
+
+
+.contact article form{
+	margin: 10px 0px 0px 800px;
+}
+
+
+
+
+
